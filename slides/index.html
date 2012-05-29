@@ -1,0 +1,336 @@
+
+<!DOCTYPE html>
+
+<!--
+  Google HTML5 slide template
+
+  Authors: Luke Mahé (code)
+           Marcin Wichary (code and design)
+           
+           Dominic Mazzoni (browser compatibility)
+           Charles Chen (ChromeVox support)
+
+  URL: http://code.google.com/p/html5slides/
+-->
+
+<html>
+  <head>
+    <title>Sencha Paris Meetup Introduction</title>
+    <link rel="stylesheet" type="text/css" media="all" href="styles.css" />
+
+    <meta charset='utf-8'>
+    <script src='prettify.js'></script>
+    <script src='slides.js'></script>
+  </head>
+  
+  <style>
+    /* Your individual styles here, or just use inline styles if that’s
+       what you want. */
+    .slides.template-default > article:not(.nobackground):not(.biglogo) {
+      background: url(img/logolong-100.png) bottom right no-repeat !important;  
+      background-color: white !important;  
+    } 
+    h2.normal {
+      position:relative;
+      top:10px;
+    }
+    ul.numbered li {
+      list-style-type: decimal;
+    }
+    .pink {
+      color:#f06;
+    }
+    .nomargin {
+      margin:0px;
+    }
+    h1 {
+      margin-top:120px;
+    }
+    .centerv {
+     margin-top:200px; 
+    }
+  </style>
+
+  <body style='display: none'>
+
+    <section class='slides layout-regular template-default'>
+      
+      <!-- Your slides (<article>s) go here. Delete or comment out the
+           slides below. -->
+      
+      <article style="text-align:center">
+        <h1 style='margin-top:30px;font-size:75px'>Sencha Paris Meetup</h1>
+        <br>
+        <img src="img/sencha-logo.png" width=400 />
+        <br>
+        <div style='font-size:18px'>EPITECH, 29/05/2012</div>
+      </article>
+
+      <article>
+        <h1>Why a Sencha Meetup ?</h1>
+        <br>
+        <ul>
+          <li>Meet the community</li>
+          <li>Promote Sencha technologies</li>
+          <li>Share, discover, learn</li>
+          <li>Facilitate technology access</li>
+        </ul>
+      </article>
+
+      <article>
+        <h1>You can help !</h1>
+        <br>
+        <ul>
+          <li>Your experiences</li>
+          <li>Your tools</li>
+          <li>Your *awesome* open source projects</li>
+          <li>Your questions and answers</li>
+          <li>SUBMIT YOUR TALKS !</li>
+        </ul>
+      </article>
+
+      <article>
+        <h1>Meetup organisation</h1>
+        <br>
+        <ul>
+          <li>auto organised, based on ParisJS model</li>
+          <li>talks : <a href="http://groups.google.com/group/sencha-paris">http://groups.google.com/group/sencha-paris</a></li>
+          <li>meetings : <a href="http://meetup.com/sencha-paris">http://meetup.com/sencha-paris</a></li>
+          <li>twitter : <a href="http://twitter.com/senchaparis">@senchaparis</a></li>
+        </ul>
+      </article>
+
+      <article style='text-align:center'>
+        <h1 style='font-size:70px;' class='centerv'>
+            Sencha Quick Overview
+        </h1>
+      </article>
+
+      <article style='text-align:center'  >
+        <h1 style='font-size:80px;' class='centerv'>
+            What makes Sencha<br><br>
+            <span class='pink'>so special</span> ?
+        </h1>
+      </article>
+
+      <article>
+        <h1>A <span class=pink >Funded</span> startup</h1><br>
+        <ul>
+          <li>Raised <span class=pink >29M$</span> since 2010</li>
+          <li>+100 employees dedicated to the frameworks</li>
+          <li>Focused on entreprise-grade RIA solutions since 2006</li>
+          <li>Support and trainings available</li>
+          <li>Integrated RaphaelJS, JQtouch and TheJIT creators</li>
+        </ul>
+      </article>
+
+      <article>
+        <h1>A <span class=pink >long term</span> vision</h1><br>
+        <ul>
+          <li>Lead the (web) javascript GUI industry</li>
+          <li>Presence in Desktop + Mobile RIA</li>
+          <li>Server + Client javascript frameworks</li>
+          <li>Global solutions, from prototyping to deployment</li>
+          <li>Connect.js, sencha.io, Architect, GXT, Charts, PhantomJS...</li>
+        </ul>
+      </article>
+
+       <article>
+        <h1>The <span class=pink >Sencha</span> paradigm</h1><br>
+        <ul>
+          <li>100% declarative javascript, generates standard HTML5</li>
+          <li>Javascript OOP for reusability</li>
+          <li>Massive, unified widget library</li>
+          <li>Crazy awesome data package</li>
+          <li>Homogenous API & Docs</li>
+          <li>Support for (very) old browsers</li>
+        </ul>
+      </article>
+
+       <article>
+        <h1><span class=pink >Sencha</span> defects</h1><br>
+        <ul>
+          <li>Steep learning curve</li>
+          <li>Not open source</li>
+          <li>Hardcore debugging for beginners</li>
+          <li>Slow when not used correctly</li>
+          <li>SEO is not a feature (yet?)</li>
+        </ul>
+      </article>
+
+       <article>
+        <h1 style='font-size:60px'>2012: <span class=pink >Deep</span> improvements</h1>
+        <ul>
+          <li>ExtJS 4 / Sencha Touch 2 unified codebase</li>
+          <li>SASS+compass theming</li>
+          <li>MVC for decoupled and reusable components</li>
+          <li>POO with an awesome Class manager</li>
+          <li>Dynamic source loader/builder</li>
+          <li>massive performance improvements</li>
+        </ul>
+      </article>
+
+      <article>
+        <h1 style='font-size:60px'>ExtJs <span class=pink >Licence</span></h1>
+        <br>
+        <ul>
+          <li>GPLv3 licence for open source projects</li>
+          <li class=pink >OR</li>
+          <li>Commercial projects needs a per developer licence</li>
+          <li>One licence per major version only</li>
+          <li>600$/year/developer</li>
+        </ul>
+      </article>
+
+      <article>
+        <h1 class='centerv'>
+              <span  style='font-size:100px' class=pink >ExtJs</span><br>
+              Stunning desktop webapps
+        </h1>
+      </article>
+
+      <article>
+        <h1 style='margin-top:30px'>
+            <span  style='font-size:100px' class=pink >ExtJs</span> : 
+            EasyIntranet
+        </h1><br>
+        <img src='img/easyintranet-home.png' width=700 />
+      </article>
+
+      <article>
+        <h1 style='margin-top:30px'>
+            <span  style='font-size:100px' class=pink >ExtJs</span> : 
+            Kohive (1)
+        </h1><br>
+        <img src='img/kohive-1.jpeg' width=700 />
+      </article>
+
+      <article>
+        <h1 style='margin-top:30px'>
+            <span  style='font-size:100px' class=pink >ExtJs</span> :
+            Kohive (2)
+        </h1><br>
+        <img src='img/kohive-2.jpeg' width=700 />
+      </article>
+
+      <article>
+        <h1 style='margin-top:30px'>
+            <span  style='font-size:100px' class=pink >ExtJs</span> :
+            PimCore CMS
+        </h1><br>
+        <img src='img/pimcore.jpeg' width=700 />
+      </article>
+
+      <article>
+        <h1 style='margin-top:30px'>
+            <span  style='font-size:100px' class=pink >ExtJs</span> :
+            Cq5 CMS (adobe)
+        </h1><br>
+        <img src='img/cq5.png' width=700 />
+      </article>
+
+      <article>
+        <h1 style='margin-top:30px'>
+            <span  style='font-size:100px' class=pink >ExtJs</span> :
+            Various map tools
+        </h1><br>
+        <img src='img/extjs-map.jpeg' width=700 />
+      </article>
+
+      <article>
+        <h1  class='centerv'>
+              <span  style='font-size:100px' class=pink >Sencha Touch 2</span><br>
+              <span  style='font-size:50px'>Cross device HTML5 framework</span>
+        </h1>
+      </article>
+
+      <article style="text-align:center">
+        <h1 style='margin-top:30px;font-size:55px' class=pink >
+          One framework to rule'em all
+        </h1>
+        <br>
+          <br>
+          <img class='centered' style='display:inline; height:370px' src='img/home-revolunet.png'>
+      </article>
+
+      <article>
+        <h1 class=pink >Why Sencha Touch 2 ?</h1>
+        <ul>
+          <li>HTML5 Web standards</li>
+          <li>HTML5 is a good solution to fragmentation</li>
+          <li>Good device compatibility (webkit only though)</li>
+          <li class=pink >LICENCE : Free for commercial usage</li>
+          <li>Fully themable</li>
+          <li>Publish with Phonegap or the builtin build tool</li>
+        </ul>
+      </article>
+ 
+
+      <article>
+        <h1 style='margin-top:30px;font-size:45px'>
+            <span  style='' class=pink >ST2</span> :
+            Phonegap meetup sample app
+        </h1><br>
+        <p align=center >
+          <img src='img/sencha-example1.png' style='height:400px'/>
+          <img src='img/sencha-example2.png' style='height:400px'/>
+        </p>
+      </article>
+
+      <article>
+        <h1 style='margin-top:40px;font-size:50px'>
+            <span  style='' class=pink >ST2</span> :
+            BellesDemeures.com (iPad)
+        </h1>
+        <br>
+        <p align=center >
+          <img src='img/bd-small.png' style='height:400px'/>
+        </p>
+      </article>
+
+      <article>
+        <h1 style='margin-top:40px;font-size:50px'>
+            <span  style='' class=pink >ST2</span> :
+            ViewBeat (iPhone)
+        </h1>
+        <br>
+        <p align=center >
+          <img src='img/viewbeat.png' style='height:400px'/>
+        </p>
+      </article>
+
+      <article>
+        <h1 style='margin-top:40px;font-size:50px'>
+            <span  style='' class=pink >ST2</span> :
+            Toyota EU (iOS, Android, BB)
+        </h1>
+        <br>
+        <p align=center >
+          <img src='img/toyota.png' style='height:400px'/>
+        </p>
+      </article>
+
+      <article>
+        <h1 style='font-size:100px;margin-top:50px' align=center >Questions ?</h1>
+        <p align=center ><br><br>
+          <img src='img/beer.jpeg'/>
+        </p>
+      </article>
+
+      <article>
+        <h1 style='font-size:100px;margin-top:100px' align=center >Thank you</h1>
+        <p align=center >
+          <br><br>
+          twitter: <a href='http://twitter.com/revolunet' target='_blank'>@revolunet</a>
+          <br><br>
+          github: <a href='http://github.com/revolunet' target='_blank'>revolunet</a>
+          <br><br><br><br>
+          Thanks to EPITECH for hosting
+        </p>
+      </article>
+ 
+
+    </section>
+
+  </body>
+</html>
